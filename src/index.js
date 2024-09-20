@@ -5,7 +5,7 @@ import customerRoutes from './routes/customerRoutes.js';
 const app = express();
 app.use(express.json());
 
-// app.use(productRoutes);
+app.use(productRoutes);
 
 app.use(customerRoutes);
 
